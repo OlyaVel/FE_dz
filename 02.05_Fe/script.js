@@ -10,7 +10,7 @@ for (let i = 100; i >= 50; i--) {
 }
 
 // 2
-const namesContainer = ["Illya", "Lena", "Anna", "Katerina"]
+const namesContainer = ["Olga", "Lena", "Anna", "Ina"]
 for (let i = 0; i < namesContainer.length; i++) {
     main.innerHTML += `<div class="strings_container">
                                 <p>${namesContainer[i]}</p>
@@ -20,13 +20,13 @@ for (let i = 0; i < namesContainer.length; i++) {
 // 3
 const users = [
     {
-        first_name: "Illya",
-        last_name: "Khoda",
-        age: 32
+        first_name: "Olga",
+        last_name: "Vel",
+        age: 35
     },
     {
         first_name: "Lena",
-        last_name: "Golovach",
+        last_name: "Let",
         age: 16
     },
     {
@@ -35,8 +35,8 @@ const users = [
         age: 37
     },
     {
-        first_name: "Katerina",
-        last_name: "Dresden",
+        first_name: "Ina",
+        last_name: "Sun",
         age: 15 
     },
 ]
