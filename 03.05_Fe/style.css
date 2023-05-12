@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(179, 215, 234);
+}
+
+.square-wrapper {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red-square,
+.pink-square,
+.yellow-square {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    -webkit-box-shadow: 23px 9px 17px 1px rgba(34, 60, 80, 0.35);
+    -moz-box-shadow: 23px 9px 17px 1px rgba(34, 60, 80, 0.35);
+    box-shadow: 23px 9px 17px 1px rgba(34, 60, 80, 0.35);
+    transition: 0.3s;
+}
+
+.red-square {
+    background-color: red;
+}
+
+.pink-square {
+    background-color: pink;
+}
+
+.yellow-square {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+
+.green-square {
+    width: 100px;
+    height: 100px;
+    margin-top: 75px;
+    background-color: green;
+}
+
+.blue-square {
+    background: blue;
+}
+
+.yellow-square-big {
+    width: 170px;
+    height: 170px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(75, 75, 88);
+    color: #fff;
+    font-size: 20px;
+    top: 30px;
+}
+
+.root1,
+.root2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    margin: 50px;
+}
+
+p {
+    padding: 20px;
+    text-align: justify;
+}
